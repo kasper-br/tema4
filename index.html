@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EasyMeal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider({
+          captions: true,
+          slideWidth: 600,
+          auto: true,
+          pause: 4000,
+          speed: 300,
+          controls: false,
+          pager: false
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+      <header>
+        <article class="clearfix">
+          <section class="text">
+            <div class="logo">EASYplanner</div>
+            <h1>Vi er din personlige køkkenassistent, så du får mere tid i hverdagen.</h1>
+            <p>Lad os hjælpe med inspiration og planlægning til hverdagen dine måltider.</p>
+            <div class="divider"></div>
+            <a class="appstore" target="_blank" href=""><img src="img/appstore.png" alt="AppStore"></a>
+            <a class="googleplay" target="_blank" href=""><img src="img/googleplay.png" alt="GooglePlay"></a>
+          </section>
+          <section class="phone">
+            <div class="gallery">
+              <ul class="slider">
+                <li><img src="img/slide1.jpg" /></li>
+                <li><img src="img/slide2.jpg" /></li>
+              </ul>
+            </div>
+          </section>
+        </article>
+      </header>
+      <main>
+        <article class="clearfix">
+        <section class="half">
+            <p style="color: red;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            <h2>EasyPlanner giver dig overskud til hverdagens madlavning.</h2>
+            <h3>Vi kan tilbyde dig følgende service:</h3>
+            <ul>
+              <li><span>-</span> Inspiration til opskrifter</li>
+              <li><span>-</span> Mindske madspild</li>
+              <li><span>-</span> Indkøbsliste</li>
+              <li><span>-</span> Personlige madplaner</li>
+              <li><span>-</span> Blogs</li>
+              <li><span>-</span> Få mere tid</li>
+            </ul>
+            <ul class="not-released">
+              <li><span>-</span> Inspiration til opskrifter</li>
+              <li><span>-</span> Mindske madspild</li>
+              <li><span>-</span> Indkøbsliste</li>
+              <li><span>-</span> Personlige madplaner</li>
+              <li><span>-</span> Blogs</li>
+              <li><span>-</span> Få mere tid</li>
+            </ul>
+        </section>
+
+        <section class="half two">
+          <form class="" action="" method="post">
+            <div class="box">
+              <h2>Få inspiration til din mail</h2>
+              <input type="text" placeholder="Dit navn">
+              <input type="text" placeholder="Din email">
+            </div>
+            <input type="submit" value="Tilmeld dig">
+          </form>
+        </section>
+
+      </article>
+
+      </main>
+      <footer>
+        <p>EASYmeal</p>
+      </footer>
+  </body>
+</html>
