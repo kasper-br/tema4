@@ -60,25 +60,25 @@ h1 {
 h2 {
   font-size: 30px;
   line-height: 50px;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   margin-bottom: 20px;
 }
 
 
-@media screen and (max-width: 817px) {
+/*@media screen and (max-width: 817px) {
     h2 {
       margin-top: 60px;
     }
-}
+}*/
 
 h3 {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 817px) {
   h2 {
     text-align: center;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
 
   h3 {
@@ -251,9 +251,6 @@ header {
   margin-right: 0;
   width: 100%;
 }
-.half p {
-  color: red;
-}
 
 @media screen and (max-width: 1050px) {
   .half {
@@ -263,12 +260,12 @@ header {
   }
   .half.two {
     width: auto;
-    max-width: 38%;
+    max-width: 36%;
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 817px) {
+/*@media screen and (max-width: 817px) {
   .half {
     max-width: 50%;
     margin-right: 0;
@@ -280,19 +277,33 @@ header {
     font-size: 22px;
     line-height: 30px;
   }
-}
+}*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 817px) {
   .half {
     max-width: 100%;
     margin-right: 0;
     width: 100%;
   }
+  .half.two {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    width: 100%;
+  }
 
   .half p {
     text-align: center;
+    width: 100%;
+    font-size: 20px;
   }
 }
+
+/*@media screen and (min-width: 480px) and (max-width: 740px) {
+  .half p {
+    width: 100%;
+  }
+}*/
 
 .half ul {
   list-style: none;
@@ -301,7 +312,7 @@ header {
 .half ul li {
   line-height: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 817px) {
   ul {
     text-align: center;
     list-style: none;
@@ -416,7 +427,7 @@ form {
 }
 @media screen and (max-width: 817px) {
   form {
-    margin-top: 161px;
+    margin-top: 0;
   }
 }
 
@@ -444,6 +455,11 @@ input {
   border-radius: 5px;
   border: 2px solid white;
   transition: 300ms ease;
+}
+@media screen and (max-width: 817px) {
+  input {
+    text-align: center;
+  }
 }
 input[type="text"]:focus {
   border: 2px solid #BF9300;
